@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e1f9ad9c-d103-4a81-9a87-4cca514ef9b9" name="mbarcins@MBARCINS-MOBL 2011-09-19 13:19:37" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 13_19_37">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T13:19:37.6604549+02:00" queuing="2011-09-19T13:19:37.7044574+02:00" start="2011-09-19T13:19:37.7124579+02:00" finish="2011-09-19T13:19:38.0554775+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaToStringZwracaImieOrazNazwisko" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="2ed7b0b0-01c1-e505-e873-10a2e58bd893">
+      <Execution id="bb0c0aed-576d-4efd-a56a-6d0944a95646" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaToStringZwracaImieOrazNazwisko" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" executionId="bb0c0aed-576d-4efd-a56a-6d0944a95646" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bb0c0aed-576d-4efd-a56a-6d0944a95646" testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" testName="MetodaToStringZwracaImieOrazNazwisko" computerName="MBARCINS-MOBL" duration="00:00:00.0143155" startTime="2011-09-19T13:19:37.7274587+02:00" endTime="2011-09-19T13:19:38.0374764+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb0c0aed-576d-4efd-a56a-6d0944a95646">
+    </UnitTestResult>
+  </Results>
+</TestRun>

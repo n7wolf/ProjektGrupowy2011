@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c33a4628-a253-4963-9486-f2a805e5d1be" name="mbarcins@MBARCINS-MOBL 2011-09-19 15:22:25" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 15_22_25">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T15:22:25.3834025+02:00" queuing="2011-09-19T15:22:25.4514064+02:00" start="2011-09-19T15:22:25.4684074+02:00" finish="2011-09-19T15:22:25.9144329+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaSzukajOsobyZwracaNullGdyNieMaTakiejOsobyWBazie" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="1621051f-d30b-7595-c27a-3c345e3ea7ff">
+      <Execution id="2a8aef7b-600f-4e9d-b3f7-83057de2311f" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajOsobyZwracaNullGdyNieMaTakiejOsobyWBazie" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1621051f-d30b-7595-c27a-3c345e3ea7ff" executionId="2a8aef7b-600f-4e9d-b3f7-83057de2311f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2a8aef7b-600f-4e9d-b3f7-83057de2311f" testId="1621051f-d30b-7595-c27a-3c345e3ea7ff" testName="MetodaSzukajOsobyZwracaNullGdyNieMaTakiejOsobyWBazie" computerName="MBARCINS-MOBL" duration="00:00:00.0189046" startTime="2011-09-19T15:22:25.4934088+02:00" endTime="2011-09-19T15:22:25.8584297+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a8aef7b-600f-4e9d-b3f7-83057de2311f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

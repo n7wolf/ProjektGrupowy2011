@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b5a87c89-b30a-4ee2-a732-8ce640bf590a" name="mbarcins@MBARCINS-MOBL 2011-09-19 13:07:00" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 13_07_00">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T13:07:00.8331668+02:00" queuing="2011-09-19T13:07:00.8861699+02:00" start="2011-09-19T13:07:00.8961704+02:00" finish="2011-09-19T13:07:01.2771922+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaWiekZwracaIloscLatOsoby" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="27403b95-e996-d3c5-4eac-668c3e69986e">
+      <Execution id="3a763374-7edd-4971-8bd9-f341fb9c1dfc" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaWiekZwracaIloscLatOsoby" />
+    </UnitTest>
+    <UnitTest name="MetodaToStringZwracaImieOrazNazwisko" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="2ed7b0b0-01c1-e505-e873-10a2e58bd893">
+      <Execution id="ec1e3705-ddcd-49c2-ad0f-d98aecca4621" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaToStringZwracaImieOrazNazwisko" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="27403b95-e996-d3c5-4eac-668c3e69986e" executionId="3a763374-7edd-4971-8bd9-f341fb9c1dfc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" executionId="ec1e3705-ddcd-49c2-ad0f-d98aecca4621" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3a763374-7edd-4971-8bd9-f341fb9c1dfc" testId="27403b95-e996-d3c5-4eac-668c3e69986e" testName="MetodaWiekZwracaIloscLatOsoby" computerName="MBARCINS-MOBL" duration="00:00:00.0177813" startTime="2011-09-19T13:07:00.9241720+02:00" endTime="2011-09-19T13:07:01.2411902+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a763374-7edd-4971-8bd9-f341fb9c1dfc">
+    </UnitTestResult>
+    <UnitTestResult executionId="ec1e3705-ddcd-49c2-ad0f-d98aecca4621" testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" testName="MetodaToStringZwracaImieOrazNazwisko" computerName="MBARCINS-MOBL" duration="00:00:00.0007034" startTime="2011-09-19T13:07:01.2461905+02:00" endTime="2011-09-19T13:07:01.2521908+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec1e3705-ddcd-49c2-ad0f-d98aecca4621">
+    </UnitTestResult>
+  </Results>
+</TestRun>

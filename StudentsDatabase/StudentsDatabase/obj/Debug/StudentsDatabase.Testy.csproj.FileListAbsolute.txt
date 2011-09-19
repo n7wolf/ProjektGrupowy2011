@@ -1,0 +1,7 @@
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\bin\Debug\StudentsDatabase.dll
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\bin\Debug\StudentsDatabase.pdb
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\bin\Debug\StudentsDatabase.Core.dll
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\bin\Debug\StudentsDatabase.Core.pdb
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\obj\Debug\StudentsDatabase.dll
+C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\obj\Debug\StudentsDatabase.pdb

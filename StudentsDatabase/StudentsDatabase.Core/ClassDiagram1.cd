@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentsDatabase.Core.KalkulatorWieku" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KalkulatorWieku.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsDatabase.Core.Osoba" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAABAAIAAAAAFAAAAAACAAAAAAAAAAAAgAAkAEAA=</HashCode>
+      <FileName>Osoba.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StudentsDatabase.Core.OsobyPrzedmiotyDatabase" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAABAAAAAAAAAAAAAAAAAABAAAAAAAEAA=</HashCode>
+      <FileName>OsobyPrzedmiotyDatabase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentsDatabase.Core.Przedmiot" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAEAAAAAAAAEAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Przedmiot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StudentsDatabase.Core.IWiek" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IWiek.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c642eeb4-fb60-4533-8085-e716a4003a1b" name="mbarcins@MBARCINS-MOBL 2011-09-19 15:22:34" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 15_22_34">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T15:22:34.6879347+02:00" queuing="2011-09-19T15:22:34.8509440+02:00" start="2011-09-19T15:22:34.8599445+02:00" finish="2011-09-19T15:22:35.2509669+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaSzukajPrzedmiotyZwracaNullGdyNieMaTakiegoPrzedmiotu" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="e3dcd3eb-0d82-e411-95af-25e463c8e1e6">
+      <Execution id="951fa650-0a26-4b27-96b5-db9221dd8094" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajPrzedmiotyZwracaNullGdyNieMaTakiegoPrzedmiotu" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e3dcd3eb-0d82-e411-95af-25e463c8e1e6" executionId="951fa650-0a26-4b27-96b5-db9221dd8094" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="951fa650-0a26-4b27-96b5-db9221dd8094" testId="e3dcd3eb-0d82-e411-95af-25e463c8e1e6" testName="MetodaSzukajPrzedmiotyZwracaNullGdyNieMaTakiegoPrzedmiotu" computerName="MBARCINS-MOBL" duration="00:00:00.0177477" startTime="2011-09-19T15:22:34.8709452+02:00" endTime="2011-09-19T15:22:35.2309658+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="951fa650-0a26-4b27-96b5-db9221dd8094">
+    </UnitTestResult>
+  </Results>
+</TestRun>

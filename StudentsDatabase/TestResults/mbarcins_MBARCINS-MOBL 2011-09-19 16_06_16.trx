@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cd43fee1-4725-43aa-a9ae-e49c20ae4dba" name="mbarcins@MBARCINS-MOBL 2011-09-19 16:06:16" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 16_06_16">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T16:06:16.0779061+02:00" queuing="2011-09-19T16:06:20.2041421+02:00" start="2011-09-19T16:06:20.5781635+02:00" finish="2011-09-19T16:06:24.9234120+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaObliczZwracaIloscLat" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="bf23261e-fa86-7cb3-1877-132f353e0016">
+      <Execution id="cc0d3d30-a916-41f0-8c25-bed126caf8fe" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.KalkulatorWiekuTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaObliczZwracaIloscLat" />
+    </UnitTest>
+    <UnitTest name="MetodaSzukajOsobyZwracaWyjatekGdyNieMaTakiejOsobyWBazie" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="cca587e4-be41-b547-9095-417b75cbd12a">
+      <Execution id="51e3329a-999d-4d09-8b94-6353b54d99bb" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajOsobyZwracaWyjatekGdyNieMaTakiejOsobyWBazie" />
+    </UnitTest>
+    <UnitTest name="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="dfca46f7-60ee-aaf4-e03f-b2cf2b854972">
+      <Execution id="f6865159-b5a7-468a-afc7-b4a12a349234" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" />
+    </UnitTest>
+    <UnitTest name="MetodaZwrocPrzedmiotyZwracaKilkaPrzedmiotow" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="b7e00da3-68eb-88ff-803d-402e820bd05a">
+      <Execution id="4ce9105c-e669-47eb-b17f-ad908c9df152" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaZwrocPrzedmiotyZwracaKilkaPrzedmiotow" />
+    </UnitTest>
+    <UnitTest name="MetodaSzukajPrzedmiotyZwracaPrawidlowyPrzedmiot" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="8bead7d5-6440-0517-8d79-74081e28079c">
+      <Execution id="364affca-255d-49cf-a0bb-77ffa0dfe4d3" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajPrzedmiotyZwracaPrawidlowyPrzedmiot" />
+    </UnitTest>
+    <UnitTest name="MetodaWiekZwracaIloscLatOsoby" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="27403b95-e996-d3c5-4eac-668c3e69986e">
+      <Execution id="ea5f7594-4fd9-46a1-b0c9-532142387151" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaWiekZwracaIloscLatOsoby" />
+    </UnitTest>
+    <UnitTest name="MetodaToStringZwracaImieOrazNazwisko" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="2ed7b0b0-01c1-e505-e873-10a2e58bd893">
+      <Execution id="94e8bf55-6f3b-4a5e-b5c5-764b6a71c605" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaToStringZwracaImieOrazNazwisko" />
+    </UnitTest>
+    <UnitTest name="MetodaSzukajOsobyZwracaPrawidlowaOsobe" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="f4f720ed-efdd-60c2-e5a3-45d1632fcacb">
+      <Execution id="cd9c9089-2d2f-4441-9bcf-166c37c20ecb" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajOsobyZwracaPrawidlowaOsobe" />
+    </UnitTest>
+    <UnitTest name="MetodaSzukajPrzedmiotyZwracaWyjatekGdyNieMaTakiegoPrzedmiotu" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="d2524aa4-98ea-e89f-d2c0-3dc457825e59">
+      <Execution id="f5e4b652-3f0c-4a1c-b25e-1412ccf025df" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobyPrzedmiotyDatabaseTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaSzukajPrzedmiotyZwracaWyjatekGdyNieMaTakiegoPrzedmiotu" />
+    </UnitTest>
+    <UnitTest name="MetodaToStringZwracaDanePrzedmiotu" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="b116689b-83b1-211e-904e-7f3b3c161f25">
+      <Execution id="277d75d3-f6e6-4354-a950-041d690420bd" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.PrzedmiotTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaToStringZwracaDanePrzedmiotu" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="27403b95-e996-d3c5-4eac-668c3e69986e" executionId="ea5f7594-4fd9-46a1-b0c9-532142387151" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" executionId="94e8bf55-6f3b-4a5e-b5c5-764b6a71c605" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bead7d5-6440-0517-8d79-74081e28079c" executionId="364affca-255d-49cf-a0bb-77ffa0dfe4d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b116689b-83b1-211e-904e-7f3b3c161f25" executionId="277d75d3-f6e6-4354-a950-041d690420bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7e00da3-68eb-88ff-803d-402e820bd05a" executionId="4ce9105c-e669-47eb-b17f-ad908c9df152" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bf23261e-fa86-7cb3-1877-132f353e0016" executionId="cc0d3d30-a916-41f0-8c25-bed126caf8fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cca587e4-be41-b547-9095-417b75cbd12a" executionId="51e3329a-999d-4d09-8b94-6353b54d99bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2524aa4-98ea-e89f-d2c0-3dc457825e59" executionId="f5e4b652-3f0c-4a1c-b25e-1412ccf025df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dfca46f7-60ee-aaf4-e03f-b2cf2b854972" executionId="f6865159-b5a7-468a-afc7-b4a12a349234" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f4f720ed-efdd-60c2-e5a3-45d1632fcacb" executionId="cd9c9089-2d2f-4441-9bcf-166c37c20ecb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ea5f7594-4fd9-46a1-b0c9-532142387151" testId="27403b95-e996-d3c5-4eac-668c3e69986e" testName="MetodaWiekZwracaIloscLatOsoby" computerName="MBARCINS-MOBL" duration="00:00:00.0231504" startTime="2011-09-19T16:06:20.7951759+02:00" endTime="2011-09-19T16:06:24.3833811+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ea5f7594-4fd9-46a1-b0c9-532142387151">
+    </UnitTestResult>
+    <UnitTestResult executionId="94e8bf55-6f3b-4a5e-b5c5-764b6a71c605" testId="2ed7b0b0-01c1-e505-e873-10a2e58bd893" testName="MetodaToStringZwracaImieOrazNazwisko" computerName="MBARCINS-MOBL" duration="00:00:00.0017647" startTime="2011-09-19T16:06:24.4033823+02:00" endTime="2011-09-19T16:06:24.4183831+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94e8bf55-6f3b-4a5e-b5c5-764b6a71c605">
+    </UnitTestResult>
+    <UnitTestResult executionId="364affca-255d-49cf-a0bb-77ffa0dfe4d3" testId="8bead7d5-6440-0517-8d79-74081e28079c" testName="MetodaSzukajPrzedmiotyZwracaPrawidlowyPrzedmiot" computerName="MBARCINS-MOBL" duration="00:00:00.0020159" startTime="2011-09-19T16:06:24.4393843+02:00" endTime="2011-09-19T16:06:24.4513850+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="364affca-255d-49cf-a0bb-77ffa0dfe4d3">
+    </UnitTestResult>
+    <UnitTestResult executionId="277d75d3-f6e6-4354-a950-041d690420bd" testId="b116689b-83b1-211e-904e-7f3b3c161f25" testName="MetodaToStringZwracaDanePrzedmiotu" computerName="MBARCINS-MOBL" duration="00:00:00.0014506" startTime="2011-09-19T16:06:24.4773865+02:00" endTime="2011-09-19T16:06:24.4983877+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="277d75d3-f6e6-4354-a950-041d690420bd">
+    </UnitTestResult>
+    <UnitTestResult executionId="4ce9105c-e669-47eb-b17f-ad908c9df152" testId="b7e00da3-68eb-88ff-803d-402e820bd05a" testName="MetodaZwrocPrzedmiotyZwracaKilkaPrzedmiotow" computerName="MBARCINS-MOBL" duration="00:00:00.0010693" startTime="2011-09-19T16:06:24.5263893+02:00" endTime="2011-09-19T16:06:24.5473905+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ce9105c-e669-47eb-b17f-ad908c9df152">
+    </UnitTestResult>
+    <UnitTestResult executionId="cc0d3d30-a916-41f0-8c25-bed126caf8fe" testId="bf23261e-fa86-7cb3-1877-132f353e0016" testName="MetodaObliczZwracaIloscLat" computerName="MBARCINS-MOBL" duration="00:00:00.0016293" startTime="2011-09-19T16:06:24.5653915+02:00" endTime="2011-09-19T16:06:24.5753921+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0d3d30-a916-41f0-8c25-bed126caf8fe">
+    </UnitTestResult>
+    <UnitTestResult executionId="51e3329a-999d-4d09-8b94-6353b54d99bb" testId="cca587e4-be41-b547-9095-417b75cbd12a" testName="MetodaSzukajOsobyZwracaWyjatekGdyNieMaTakiejOsobyWBazie" computerName="MBARCINS-MOBL" duration="00:00:00.0768328" startTime="2011-09-19T16:06:24.5983934+02:00" endTime="2011-09-19T16:06:24.6863985+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="51e3329a-999d-4d09-8b94-6353b54d99bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="f5e4b652-3f0c-4a1c-b25e-1412ccf025df" testId="d2524aa4-98ea-e89f-d2c0-3dc457825e59" testName="MetodaSzukajPrzedmiotyZwracaWyjatekGdyNieMaTakiegoPrzedmiotu" computerName="MBARCINS-MOBL" duration="00:00:00.0548737" startTime="2011-09-19T16:06:24.7003993+02:00" endTime="2011-09-19T16:06:24.7634029+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f5e4b652-3f0c-4a1c-b25e-1412ccf025df">
+    </UnitTestResult>
+    <UnitTestResult executionId="f6865159-b5a7-468a-afc7-b4a12a349234" testId="dfca46f7-60ee-aaf4-e03f-b2cf2b854972" testName="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" computerName="MBARCINS-MOBL" duration="00:00:00.0005162" startTime="2011-09-19T16:06:24.7784037+02:00" endTime="2011-09-19T16:06:24.7864042+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6865159-b5a7-468a-afc7-b4a12a349234">
+    </UnitTestResult>
+    <UnitTestResult executionId="cd9c9089-2d2f-4441-9bcf-166c37c20ecb" testId="f4f720ed-efdd-60c2-e5a3-45d1632fcacb" testName="MetodaSzukajOsobyZwracaPrawidlowaOsobe" computerName="MBARCINS-MOBL" duration="00:00:00.0006029" startTime="2011-09-19T16:06:24.8014050+02:00" endTime="2011-09-19T16:06:24.8104056+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd9c9089-2d2f-4441-9bcf-166c37c20ecb">
+    </UnitTestResult>
+  </Results>
+</TestRun>

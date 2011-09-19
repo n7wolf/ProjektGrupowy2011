@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bcd57aa5-acc3-453d-bdd8-37776c853682" name="mbarcins@MBARCINS-MOBL 2011-09-19 13:46:00" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 13_46_00">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T13:46:00.7019997+02:00" queuing="2011-09-19T13:46:00.7490024+02:00" start="2011-09-19T13:46:00.7550027+02:00" finish="2011-09-19T13:46:01.0930220+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaToStringZwracaDanePrzedmiotu" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="b116689b-83b1-211e-904e-7f3b3c161f25">
+      <Execution id="99b99072-3967-41ef-a674-a66678b0614b" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.PrzedmiotTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaToStringZwracaDanePrzedmiotu" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b116689b-83b1-211e-904e-7f3b3c161f25" executionId="99b99072-3967-41ef-a674-a66678b0614b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="99b99072-3967-41ef-a674-a66678b0614b" testId="b116689b-83b1-211e-904e-7f3b3c161f25" testName="MetodaToStringZwracaDanePrzedmiotu" computerName="MBARCINS-MOBL" duration="00:00:00.0280268" startTime="2011-09-19T13:46:00.7650033+02:00" endTime="2011-09-19T13:46:01.0720208+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99b99072-3967-41ef-a674-a66678b0614b">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;ID: 0, "Szkolenie", Prowadzacy: Ktoś SuperŁoś&gt;. Actual:&lt;ID:0, "Szkolenie", Prowadzacy: Ktoś SuperŁoś&gt;. </Message>
+          <StackTrace>   at StudentsDatabase.PrzedmiotTesty.MetodaToStringZwracaDanePrzedmiotu() in C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase\PrzedmiotTesty.cs:line 29
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

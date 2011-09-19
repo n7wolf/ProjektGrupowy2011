@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="89e0d6b5-5db2-4d92-b7c0-79a2fd69164e" name="mbarcins@MBARCINS-MOBL 2011-09-19 14:07:37" runUser="GER\mbarcins" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="fafce9d2-4f08-492c-9b16-1edb663b22f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="mbarcins_MBARCINS-MOBL 2011-09-19 14_07_37">
+      <DeploymentItem filename="C:\Users\mbarcins\Desktop\szkoła\grupowy\StudentsDatabase\StudentsDatabase.Core\bin\Debug\StudentsDatabase.Core.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-09-19T14:07:37.6151789+02:00" queuing="2011-09-19T14:07:37.6551812+02:00" start="2011-09-19T14:07:37.6721821+02:00" finish="2011-09-19T14:07:38.0382031+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" storage="c:\users\mbarcins\desktop\szkoła\grupowy\studentsdatabase\studentsdatabase\bin\debug\studentsdatabase.dll" id="dfca46f7-60ee-aaf4-e03f-b2cf2b854972">
+      <Execution id="a1732eaa-29ef-494e-8059-5aaca4eb60c1" />
+      <TestMethod codeBase="C:/Users/mbarcins/Desktop/szkoła/grupowy/StudentsDatabase/StudentsDatabase/bin/Debug/StudentsDatabase.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StudentsDatabase.OsobaTesty, StudentsDatabase, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dfca46f7-60ee-aaf4-e03f-b2cf2b854972" executionId="a1732eaa-29ef-494e-8059-5aaca4eb60c1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a1732eaa-29ef-494e-8059-5aaca4eb60c1" testId="dfca46f7-60ee-aaf4-e03f-b2cf2b854972" testName="MetodaZwrocPrzedmiotyZwracaJedenPrzedmiot" computerName="MBARCINS-MOBL" duration="00:00:00.0126995" startTime="2011-09-19T14:07:37.7041840+02:00" endTime="2011-09-19T14:07:38.0082013+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1732eaa-29ef-494e-8059-5aaca4eb60c1">
+    </UnitTestResult>
+  </Results>
+</TestRun>
